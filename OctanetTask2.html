@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="OctanetTask2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Project Task Management</h1>
+        <div class="task-form">
+            <input type="text" id="taskName" placeholder="Task Name">
+            <select id="category">
+                <option value="Planning and Research">Planning and Research</option>
+                <option value="Design and Prototyping">Design and Prototyping</option>
+                <option value="Development">Development</option>
+                <option value="Testing and Quality Assurance">Testing and Quality Assurance</option>
+                <option value="Content Creation">Content Creation</option>
+                <option value="Launch and Marketing">Launch and Marketing</option>
+                <option value="Maintenance and Updates">Maintenance and Updates</option>
+            </select>
+            <input type="date" id="deadline">
+            <select id="priority">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <div class="task-list" id="taskList">
+            <!-- Tasks will be added here dynamically -->
+        </div>
+    </div>
+    <script src="OctanetTask2.js"></script>
+</body>
+</html>
